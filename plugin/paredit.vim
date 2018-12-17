@@ -368,6 +368,7 @@ function! PareditChange( type, ... )
     call PareditOpfunc( 'c', a:type, a:0 )
     if len(getline('.')) == 0
         let v:lnum = line('.')
+        let a:lnum = line('.')
         let expr = &indentexpr
         if expr == ''
             " No special 'indentexpr', call default lisp indent
