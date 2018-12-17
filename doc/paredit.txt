@@ -4,8 +4,8 @@ Paredit Mode for Vim                                  *paredit* *slimv-paredit*
                                Version 0.9.12
 
 The paredit.vim plugin performs structured editing of s-expressions used in
-the Lisp, Clojure, Scheme programming languages. It may come as part of Slimv
-but it is also distributed separately as a standalone plugin.
+the Hy, Lisp, Clojure, Scheme programming languages. It may come as part of
+Slimv but it is also distributed separately as a standalone plugin.
 
 |paredit-mode|               Paredit mode
 |paredit-keys|               Paredit keybindings
@@ -375,6 +375,8 @@ PAREDIT OPTIONS                                               *paredit-options*
 |g:paredit_disable_lisp|     If defined, paredit is disabled for lisp files.
 
 |g:paredit_disable_scheme|   If defined, paredit is disabled for scheme files.
+
+|g:paredit_disable_scheme|   If defined, paredit is disabled for hy files.
 
 |g:paredit_electric_return|  If nonzero, electric return feature is enabled.
 
